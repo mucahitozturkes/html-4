@@ -1,0 +1,65 @@
+@media (min-width: 842px) {
+    .wrapper {
+        margin-top: 200px;
+        display: flex;
+        width: 542px;
+       
+    }
+
+    .img-container {
+        width: 270px;
+        height: 407px;
+    }
+    .img-container .img .destop-img {
+        width: 271px;
+        height: 407px;
+        display: flex;
+        border-radius: 16px 0px 0px 16px;
+    }
+
+    .img-container .img img {
+        display: none;
+    }
+
+    .wrapper-infos {
+        width: 271px;
+        height: 345px;
+    }
+
+    .info-container {
+        width: 215px;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+
+
+    .info-container h2 {
+        font-size: 1.8rem;
+    }
+
+    .info-container h4 {
+        font-size: 0.8rem;
+    }
+
+    .info-container .prices .discount-price {
+        font-size: 0.8rem;
+        margin-left: 16px;
+    }
+
+    .button {
+        align-items: center;
+       
+    }
+
+    .button button{
+        width: 215px;
+        height: 45px;
+       
+    }
+
+    .button button h3 {
+        color: white;
+        font-size: 0.8rem;
+        opacity: 1;
+    }
+}

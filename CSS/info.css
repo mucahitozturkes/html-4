@@ -1,0 +1,82 @@
+
+
+.info-container {
+    height: 370px;
+    width: 295px;
+    margin: 0 auto;
+}
+
+.info-container h3 {
+    font-weight: 600;
+    font-family: Montserrat;
+    color: var(--neutral-very-dark-blue);
+    opacity: 0.5;
+    font-size: 0.8rem;
+  
+}
+
+.info-container h2 {
+    font-weight: 700;
+    font-family: Fraunces;
+    font-size: 2rem;
+    margin-top: -5px;
+}
+
+.info-container h4 {
+    font-weight: 600;
+    font-family: Montserrat;
+    color: var(--neutral-very-dark-blue);
+    opacity: 0.5;
+    font-size: 0.85rem;
+    margin-bottom: 20px;
+    margin-top: -13px;
+    line-height: 1.7;
+
+}
+
+.prices {
+    display: flex;
+    align-items: center;
+    margin-top: -12px;
+}
+
+.prices .price {
+    color: var(--primary-dark-cyan);
+    font-family: Fraunces;
+
+}
+
+.prices .discount-price {
+    font-family: Montserrat;
+    color: var(--neutral-very-dark-blue);
+    opacity: 0.5;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 25px;
+    text-decoration: line-through;
+}
+
+.button button {
+    background-color: var(--primary-dark-cyan);
+    width: 295px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.button button img {
+    margin-right: 12px;
+}
+
+.button button h3 {
+    color: white;
+    font-size: 1rem;
+    font-family: Montserrat;
+    opacity: 1;
+}
